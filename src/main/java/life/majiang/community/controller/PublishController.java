@@ -33,7 +33,6 @@ public class PublishController {
 
     @GetMapping("/publish")
     public String publish() {
-
         return "publish";
     }
 

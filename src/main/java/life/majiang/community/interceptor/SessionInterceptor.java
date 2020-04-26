@@ -13,7 +13,9 @@ import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.List;
-
+/*
+*拦截器
+* */
 @Service
 public class SessionInterceptor implements HandlerInterceptor {
 
